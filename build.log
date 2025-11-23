@@ -1,0 +1,28 @@
+
+> tait-medical@0.0.0 build
+> vite build
+
+[36mvite v7.2.4 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 1702 modules transformed.
+Γ£ù Build failed in 3.49s
+error during build:
+src/App.jsx (6:7): "default" is not exported by "src/pages/About.jsx", imported by "src/App.jsx".
+file: C:/Users/Admin/Desktop/Tait Medical Center Website/src/App.jsx:6:7
+
+4: import Home from './pages/Home';
+5: import Services from './pages/Services';
+6: import About from './pages/About';
+          ^
+7: import Contact from './pages/Contact';
+
+    at getRollupError (file:///C:/Users/Admin/Desktop/Tait%20Medical%20Center%20Website/node_modules/rollup/dist/es/shared/parseAst.js:401:41)
+    at error (file:///C:/Users/Admin/Desktop/Tait%20Medical%20Center%20Website/node_modules/rollup/dist/es/shared/parseAst.js:397:42)
+    at Module.error (file:///C:/Users/Admin/Desktop/Tait%20Medical%20Center%20Website/node_modules/rollup/dist/es/shared/node-entry.js:16956:16)
+    at Module.traceVariable (file:///C:/Users/Admin/Desktop/Tait%20Medical%20Center%20Website/node_modules/rollup/dist/es/shared/node-entry.js:17412:29)
+    at ModuleScope.findVariable (file:///C:/Users/Admin/Desktop/Tait%20Medical%20Center%20Website/node_modules/rollup/dist/es/shared/node-entry.js:15076:39)
+    at FunctionScope.findVariable (file:///C:/Users/Admin/Desktop/Tait%20Medical%20Center%20Website/node_modules/rollup/dist/es/shared/node-entry.js:5649:38)
+    at FunctionBodyScope.findVariable (file:///C:/Users/Admin/Desktop/Tait%20Medical%20Center%20Website/node_modules/rollup/dist/es/shared/node-entry.js:5649:38)
+    at Identifier.bind (file:///C:/Users/Admin/Desktop/Tait%20Medical%20Center%20Website/node_modules/rollup/dist/es/shared/node-entry.js:5423:40)
+    at CallExpression.bind (file:///C:/Users/Admin/Desktop/Tait%20Medical%20Center%20Website/node_modules/rollup/dist/es/shared/node-entry.js:2809:28)
+    at CallExpression.bind (file:///C:/Users/Admin/Desktop/Tait%20Medical%20Center%20Website/node_modules/rollup/dist/es/shared/node-entry.js:12123:15)

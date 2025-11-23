@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --color-brand-blue: #003366;
+  /* Deep Navy Blue from signage */
+  --color-brand-green: #4CBB17;
+  /* Kelly/Lime Green from signage */
+}
+
+body {
+  font-family: var(--font-sans);
+  @apply antialiased text-gray-900 bg-white;
+}
