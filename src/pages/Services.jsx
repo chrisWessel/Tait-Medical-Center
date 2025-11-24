@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
     Baby,
     Stethoscope,
@@ -95,12 +96,12 @@ const Services = () => {
                     <p className="text-lg text-blue-100 mb-8 max-w-2xl mx-auto">
                         Our specialist clinics operate on scheduled days. Contact us to book an appointment with our Orthopedic, Urology, ENT, or other specialists.
                     </p>
-                    <a
-                        href="/contact"
+                    <Link
+                        to="/contact"
                         className="inline-block bg-brand-green text-white font-bold py-3 px-8 rounded-full hover:bg-green-600 transition-colors"
                     >
                         Book an Appointment
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Phone, Mail, MapPin, Clock, Send, MessageCircle } from 'lucide-react';
+import Map from '../components/Map';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -97,9 +98,9 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        {/* Map Placeholder */}
-                        <div className="mt-8 h-64 bg-gray-200 rounded-xl flex items-center justify-center">
-                            <p className="text-gray-500 font-medium">Map Integration Placeholder</p>
+                        {/* Map */}
+                        <div className="mt-8 h-80 bg-gray-200 rounded-xl overflow-hidden shadow-md">
+                            <Map />
                         </div>
                     </div>
 

@@ -52,8 +52,8 @@ const Navbar = () => {
                                 key={item.name}
                                 to={item.href}
                                 className={`${isActive(item.href)
-                                        ? 'text-brand-green font-semibold'
-                                        : 'text-gray-600 hover:text-brand-green'
+                                    ? 'text-brand-green font-semibold'
+                                    : 'text-gray-600 hover:text-brand-green'
                                     } transition-colors duration-200`}
                             >
                                 {item.name}
@@ -88,8 +88,8 @@ const Navbar = () => {
                                 key={item.name}
                                 to={item.href}
                                 className={`${isActive(item.href)
-                                        ? 'bg-blue-50 text-brand-blue'
-                                        : 'text-gray-600 hover:bg-gray-50'
+                                    ? 'bg-blue-50 text-brand-blue'
+                                    : 'text-gray-600 hover:bg-gray-50'
                                     } block px-3 py-2 rounded-md text-base font-medium`}
                                 onClick={() => setIsOpen(false)}
                             >
@@ -104,4 +104,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
